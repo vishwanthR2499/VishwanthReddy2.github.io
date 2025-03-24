@@ -28,9 +28,58 @@ header p {
 }
 
 section {
-    padding: 40px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    #about,
+#skills,
+#experience,
+#education,
+#contact {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+#skills {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.skill-category {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-category:hover {
+    transform: scale(1.05);
+}
+
+.skill-category h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.skill-category p {
+    font-size: 16px;
+    color: #555;
+}
+
 }
 
 .projects {
@@ -46,12 +95,12 @@ section {
     margin-bottom: 20px;
 }
 .profile-pic {
-    width: 300px;px; /* Adjust size as needed */
+    width: 285;px; /* Adjust size as needed */
     height: 560px;
     display: block;
     margin: 20px 0; /* Centers the image */
    Float: Right;
-    border: 3px solid #333; /* Optional: Adds a border */
+    border: 2px solid #333; /* Optional: Adds a border */
 }
 
 .project-cards {
