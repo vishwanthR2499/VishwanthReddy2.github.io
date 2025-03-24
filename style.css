@@ -1,4 +1,4 @@
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #2c3e50;
+    background-color: #471d1d;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -44,6 +44,14 @@ section {
     text-align: center;
     font-size: 2em;
     margin-bottom: 20px;
+}
+.profile-pic {
+    width: 300px;px; /* Adjust size as needed */
+    height: 560px;
+    display: block;
+    margin: 20px 0; /* Centers the image */
+   Float: Right;
+    border: 3px solid #333; /* Optional: Adds a border */
 }
 
 .project-cards {
@@ -223,7 +231,7 @@ section {
 }
 
 footer {
-    background-color: #2c3e50;
+    background-color: #50432c;
     color: #fff;
     text-align: center;
     padding: 20px;
